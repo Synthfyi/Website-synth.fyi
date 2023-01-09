@@ -1,0 +1,188 @@
+/* STYLE RESET  /  BROWSER DEFAULTS */
+html,body ,div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+
+/* DEFAULTS */
+body
+{
+
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.75)), url(./media/bg/bg-alt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+    padding:0;
+    margin:0;
+
+    color: white;
+
+}
+
+#bgv
+{
+
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+
+}
+
+
+/* MAIN */
+.main-container
+{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    margin: auto;
+    width: 55rem;
+    height: 100%;
+
+}
+
+
+.main-title
+{
+
+    font-family: 'Urbanist';
+    font-weight: 600;
+    text-align: center;
+    font-size: 7.5rem;
+    width: 100%;
+
+}
+
+.main-text
+{
+
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    line-height: 1.1;
+
+}
+
+.main-social-container
+{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.main-social-item
+{
+
+    width: 55px;
+    height: 55px;
+
+}
+
+.main-social-item:hover
+{
+
+    filter: invert(0.3);
+    cursor: pointer;
+
+}
+
+.main-age
+{
+
+    display: inline;
+
+}
+
+/* SPOTIFY / TIME CONTAINER */
+.main-st-container
+{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+/* TIME */
+.main-time-container
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    width: 50%;
+    padding-right: 30px;
+
+    border-right: 3px solid white;
+
+}
+
+.main-time-ico
+{
+
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 6px;
+
+}
+
+.main-time-text
+{
+
+    font-family: 'Urbanist';
+    text-align: center;
+    width: 100%;
+    font-size: 1.6rem;
+    margin-top: 10px;
+
+}
+
+
+/* SPOTIFY */
+.main-spotify-container
+{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    width: 50%;
+    padding-left: 30px;
+
+    border-left: 3px solid white;
+
+}
+
+.main-spotify-ico
+{
+
+    margin: auto;
+    width: 50px;
+    height: 50px;
+
+}
+
+
+.main-spotify-text
+{
+
+    font-family: 'Urbanist';
+    text-align: center;
+    width: 100%;
+    font-size: 1.6rem;
+    margin-top: 10px;
+
+}
