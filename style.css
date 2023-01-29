@@ -12,9 +12,7 @@ html,body ,div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockqu
 body
 {
 
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.75)), url(./media/bg/bg-alt.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
 
     height: 100vh;
     padding:0;
@@ -24,15 +22,12 @@ body
 
 }
 
-#bgv
+
+/* MISC */
+.main-age
 {
 
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    width: 100%; 
-    min-height: 100%;
-    z-index: -1;
+    display: inline;
 
 }
 
@@ -48,6 +43,7 @@ body
     margin: auto;
     width: 55rem;
     height: 100%;
+    z-index: 999;
 
 }
 
@@ -70,12 +66,16 @@ body
     font-size: 2rem;
     width: 100%;
     line-height: 1.1;
+    margin-top: 5px;
 
 }
 
+
+/* SOCIALS */
 .main-social-container
 {
 
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
 
@@ -97,92 +97,10 @@ body
 
 }
 
-.main-age
+.social-title
 {
 
-    display: inline;
-
-}
-
-/* SPOTIFY / TIME CONTAINER */
-.main-st-container
-{
-
-    display: flex;
-    justify-content: space-between;
-
-}
-
-
-/* TIME */
-.main-time-container
-{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-    width: 50%;
-    padding-right: 30px;
-
-    border-right: 3px solid white;
-
-}
-
-.main-time-ico
-{
-
-    margin: auto;
-    width: 50px;
-    height: 50px;
-    position: relative;
-    top: 6px;
-
-}
-
-.main-time-text
-{
-
-    font-family: 'Urbanist';
-    text-align: center;
-    width: 100%;
-    font-size: 1.6rem;
-    margin-top: 10px;
-
-}
-
-
-/* SPOTIFY */
-.main-spotify-container
-{
-
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    width: 50%;
-    padding-left: 30px;
-
-    border-left: 3px solid white;
-
-}
-
-.main-spotify-ico
-{
-
-    margin: auto;
-    width: 50px;
-    height: 50px;
-
-}
-
-
-.main-spotify-text
-{
-
-    font-family: 'Urbanist';
-    text-align: center;
-    width: 100%;
-    font-size: 1.6rem;
-    margin-top: 10px;
+    background: transparent;
+    border: 1px sold white;
 
 }
