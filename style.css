@@ -8,25 +8,26 @@ html,body ,div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockqu
 }
 
 
-/* DEFAULTS */
+/* BASE */
 body
 {
 
     background-color: black;
+    color: white;
+
+    font-family: Urbanist;
 
     height: 100vh;
     padding:0;
     margin:0;
 
-    color: white;
-
 }
 
 
-/* MISC */
-.main-age
+/* ID's */
+#dynamicAge
 {
-
+ 
     display: inline;
 
 }
@@ -37,70 +38,68 @@ body
 {
 
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    gap: 40px;
-    margin: auto;
-    width: 55rem;
-    height: 100%;
-    z-index: 999;
+    justify-content: center;
+    align-items: center;
 
+    width: 100%;
+    height: 100%;
+    
 }
 
-
-.main-title
+h1
 {
+    
+    margin: 0 0 1.75rem 0;
 
-    font-family: 'Urbanist';
+    width: 100%;
+
+    font-size: 12vh;
     font-weight: 600;
     text-align: center;
-    font-size: 7.5rem;
-    width: 100%;
 
 }
 
-.main-text
+h2
 {
 
-    text-align: center;
-    font-size: 2rem;
+    margin: 1.75rem 0 1.75rem 0;
+
     width: 100%;
-    line-height: 1.1;
-    margin-top: 5px;
+
+    font-size: 3.5vh;
+    font-weight: 400;
+    text-align: center;
 
 }
 
 
 /* SOCIALS */
-.main-social-container
+.socials-container
 {
 
-    margin-top: 20px;
+    margin: 1.75rem 0 0 0;
+
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 75%;
 
 }
 
-.main-social-item
+.socials-item
 {
 
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
 
 }
 
-.main-social-item:hover
+.socials-item:hover
 {
 
     filter: invert(0.3);
-    cursor: pointer;
-
-}
-
-.social-title
-{
-
-    background: transparent;
-    border: 1px sold white;
 
 }

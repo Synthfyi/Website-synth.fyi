@@ -1,3 +1,4 @@
+// RUN FUNCTIONS ON START
 window.onload = function() {
 
     setAge();
