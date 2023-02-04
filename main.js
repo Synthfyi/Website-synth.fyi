@@ -1,9 +1,10 @@
-// RUN FUNCTIONS ON START
+// STARTUP
 window.onload = function() {
 
     setAge();
 
 }
+
 
 // AGE CHANGER
 function setAge() {
