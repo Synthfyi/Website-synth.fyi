@@ -1,0 +1,137 @@
+/* RESET */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,
+i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,menu,nav,output,
+section,summary,time,mark,audio,video
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+/* BASE */
+body {
+
+  background-color: white;
+  color: black;
+
+  font-family: Urbanist;
+
+  padding: 0;
+  margin: 0;
+
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/* ID's */
+#dynamicAge {
+
+  display: inline;
+
+}
+
+#dynamicEvent {
+
+  font-weight: 500;
+
+  margin: 0 0 25px 0;
+
+}
+
+#themeIcon:hover {
+
+  cursor: pointer;
+
+}
+
+
+/* MAIN */
+h1 {
+
+  margin-bottom: 1.5rem;
+
+  width: 100%;
+
+  font-size: clamp(3.5em, 8vw, 15em);
+
+  font-weight: 600;
+  text-align: center;
+
+}
+
+h2 {
+
+  margin: 1.75rem 0;
+
+  width: 100%;
+
+  font-size: clamp(1.2em, 1.75vw, 3em);
+  font-weight: 400;
+  text-align: center;
+
+}
+
+
+/* SOCIALS */
+.socials-container {
+
+  margin: 1.75rem 0 0 0;
+
+  display: flex;
+  flex-direction: row;
+
+  gap: 4em;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  filter: invert(1);
+
+}
+
+.socials-item {
+
+  width: 50px;
+  height: 50px;
+
+}
+
+.socials-item:hover {
+
+  filter: invert(0.3);
+
+}
+
+
+/* ICONS */
+.icons-container {
+
+  margin: 1.75rem 0 0 0;
+
+  display: flex;
+  flex-direction: row;
+
+  gap: 4em;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+}
+
+.icons-item:hover {
+
+  filter: invert(0.3);
+
+}

@@ -32,6 +32,7 @@ body {
 
 }
 
+
 /* ID's */
 #dynamicAge {
 
@@ -44,6 +45,12 @@ body {
   font-weight: 500;
 
   margin: 0 0 25px 0;
+
+}
+
+#themeIcon:hover {
+
+  cursor: pointer;
 
 }
 
@@ -75,6 +82,7 @@ h2 {
 }
 
 
+/* SOCIALS */
 .socials-container {
 
   margin: 1.75rem 0 0 0;
@@ -98,6 +106,29 @@ h2 {
 }
 
 .socials-item:hover {
+
+  filter: invert(0.3);
+
+}
+
+
+/* ICONS */
+.icons-container {
+
+  margin: 1.75rem 0 0 0;
+
+  display: flex;
+  flex-direction: row;
+
+  gap: 4em;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+}
+
+.icons-item:hover {
 
   filter: invert(0.3);
 

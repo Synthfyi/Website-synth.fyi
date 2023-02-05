@@ -8,11 +8,17 @@
     <title>Synth</title>
     <link rel="icon" type="image/x-icon" href="./media/favicon.ico">
     <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	  <link id="dark" rel="stylesheet" type="text/css" href="./dark.css">
+    <link id="light" rel="stylesheet" type="text/css" href="./light.css" disabled="disabled">
+
     <script src="./main.js"></script>
 
     <!-- IMPORTS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
     <style>
     
         @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800;900&display=swap');
@@ -26,30 +32,41 @@
     <h1>Synth#1417</h1>
 
     <h2>
-      <div id="dynamicEvent"></div> <div id="dynamicAge"></div>
+      <div id="dynamicEvent"></div>
+      <div id="dynamicAge"></div>
       year old aspiring developer from the United Kingdom,<br/>
       Self taught in HTML, CSS, Javascript and many more.
     </h2>
 
-    <div class="socials-container">
+    <div id="socials" class="socials-container">
 
       <a title="Github" href="https://github.com/SynthScripts" target="_blank">
 
-        <img src="media/ico-git.svg" class="socials-item" />
+        <img src="media/ico-git.svg" class="socials-item"/>
 
       </a>
 
       <a title="Youtube" href="https://www.youtube.com/@__synth9898/featured" target="_blank">
 
-        <img src="media/ico-yt.svg" class="socials-item" />
+        <img src="media/ico-yt.svg" class="socials-item"/>
 
       </a>
 
       <a title="Discord" href="https://discord.com/users/1046146076534653068" target="_blank">
 
-        <img src="media/ico-dc.svg" class="socials-item" />
+        <img src="media/ico-dc.svg" class="socials-item"/>
 
       </a>
+
+    </div>
+
+    <div class="icons-container">
+
+      <div onclick="toggle(theme1, theme2);">
+      
+        <span id="themeIcon" class="material-symbols-outlined icons-item">light_mode</span>
+    
+      </div>
 
     </div>
 

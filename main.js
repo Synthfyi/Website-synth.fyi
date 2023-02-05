@@ -62,3 +62,27 @@ function setEvent() {
     }
 
 }
+
+
+// THEME SWITCHER 
+const theme1 = document.getElementById("dark");
+const theme2 = document.getElementById("light");
+
+const toggle = (dark, light) => {
+
+    if (dark.hasAttribute('disabled')) {
+
+        dark.removeAttribute('disabled');
+        light.setAttribute('disabled', '');
+
+        document.getElementById("themeIcon").innerHTML = "light_mode";
+
+    } else {
+
+        dark.setAttribute('disabled', '');
+        light.removeAttribute('disabled');
+
+        document.getElementById("themeIcon").innerHTML = "dark_mode";
+
+    }
+}
