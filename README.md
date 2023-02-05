@@ -3,5 +3,4 @@
 
 👨‍💻 My personal website [ Synth.fyi ]
 
-🌐 Link: https://synthfyi.netlify.app
-
+🌐 Link: https://synth.fyi
