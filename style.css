@@ -39,9 +39,19 @@ body {
 
 }
 
+#dynamicEvent {
+
+  font-weight: 500;
+
+  margin: 0 0 25px 0;
+
+}
+
+
+/* MAIN */
 h1 {
 
-  margin-bottom: 1.75rem;
+  margin-bottom: 1.5rem;
 
   width: 100%;
 
