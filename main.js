@@ -86,3 +86,22 @@ const toggle = (dark, light) => {
 
     }
 }
+
+
+// SHARE LINK
+function copyLink() {
+
+    text = "https://synth.fyi";
+    copyTextToClipboard(text);
+
+  }
+async function copyTextToClipboard(text) {
+  try {
+    await navigator.clipboard.writeText(text);
+
+  } catch(err) {
+
+    console.log('Error in copying text: ', err);
+
+  }
+}

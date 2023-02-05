@@ -48,18 +48,6 @@ body {
 
 }
 
-#themeIcon:hover {
-
-  cursor: pointer;
-
-  -moz-user-select: -moz-none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-
-}
-
 
 /* MAIN */
 h1 {
@@ -137,5 +125,13 @@ h2 {
 .icons-item:hover {
 
   filter: invert(0.3);
+
+  cursor: pointer;
+
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 
 }
