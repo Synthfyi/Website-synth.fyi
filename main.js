@@ -77,6 +77,8 @@ const toggle = (dark, light) => {
 
         document.getElementById("themeIcon").innerHTML = "light_mode";
 
+        showPopup("Theme Switched!")
+
     } else {
 
         dark.setAttribute('disabled', '');
@@ -84,7 +86,10 @@ const toggle = (dark, light) => {
 
         document.getElementById("themeIcon").innerHTML = "dark_mode";
 
+        showPopup("Theme Switched!")
+
     }
+
 }
 
 
@@ -93,6 +98,8 @@ function copyLink() {
 
     text = "https://synth.fyi";
     copyTextToClipboard(text);
+
+    showPopup("Link Copied!")
 
   }
 async function copyTextToClipboard(text) {
@@ -104,4 +111,15 @@ async function copyTextToClipboard(text) {
     console.log('Error in copying text: ', err);
 
   }
+}
+
+
+// POPUP
+function showPopup(text) {
+
+    var x = document.getElementById("popup");
+    x.className = "show";
+    x.innerHTML = text
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+
 }

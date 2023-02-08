@@ -32,6 +32,13 @@ body {
 
 }
 
+a {
+
+  text-decoration: inherit;
+  color: inherit;
+
+}
+
 
 /* ID's */
 #dynamicAge {
@@ -136,4 +143,53 @@ h2 {
   -ms-user-select: none;
   user-select: none;
 
+}
+
+
+/* POPUPS */
+#popup {
+
+  visibility: hidden;
+
+  min-width: 2.5em;
+
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  
+  border-radius: 2px;
+  padding: 0.75rem 1rem;
+  bottom: 3vh;
+  font-size: 1.2em;
+  font-weight: 500;
+
+  position: fixed;
+  z-index: 1;
+
+}
+
+#popup.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.75s, fadeout 0.75s 2.5s;
+  animation: fadein 0.75s, fadeout 0.75s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 3vh; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 3vh; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 3vh; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 3vh; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
 }
