@@ -82,12 +82,6 @@ h2 {
 
 }
 
-.invert {
-  
-  filter: invert(1);
-
-}
-
 
 /* SOCIALS */
 .socials-container {
@@ -146,33 +140,6 @@ h2 {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-
-}
-
-
-/* PROJECTS */
-.projects-container {
-
-  margin: 1.75rem 0 0 0;
-
-  display: flex;
-  flex-direction: column;
-
-  display: inline-block;
-  justify-content: flex-start;
-
-  width: 100%;
-
-}
-
-.projects-ico {
-
-  width: 1.2em;
-  height: 1.2em;
-
-  position: relative;
-  top: 0.3em;
-  left: 0.2em;
 
 }
 
