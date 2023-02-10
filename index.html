@@ -62,19 +62,23 @@
     <div class="icons-container">
 
 
-      <div title="Switch Theme" onclick="toggle(theme1, theme2);">
+      <div title="Switch Theme" class="icons-item" onclick="toggle(theme1, theme2);">
       
-        <span id="themeIcon" class="material-symbols-outlined icons-item">light_mode</span>
+        <span id="themeIcon" class="material-symbols-outlined">light_mode</span>
     
       </div>
 
-      <span title="Copy Link" id="copyIco" onclick="copyLink()" class="material-symbols-outlined icons-item">share</span>
+      <div title="Copy Link" class="icons-item" onclick="toggle(theme1, theme2);">
+      
+        <span id="copyIco" onclick="copyLink()" class="material-symbols-outlined">share</span>
+    
+      </div>
+      
 
     </div>
 
 
     <div id="popup"></div>
-
 
 </body>
 
