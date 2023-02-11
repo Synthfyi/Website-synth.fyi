@@ -30,12 +30,26 @@ body {
   justify-content: center;
   align-items: center;
 
+  animation: fade 5s;
+
 }
 
 a {
 
   text-decoration: inherit;
   color: inherit;
+
+}
+
+@keyframes fade {
+
+  0% {
+    opacity: 0;
+  }
+  
+  100% {
+    opacity: 1;
+  }
 
 }
 
@@ -55,6 +69,17 @@ a {
 
 }
 
+@keyframes fade {
+
+  0% {
+    opacity: 0;
+  }
+  
+   100% {
+    opacity: 1;
+  }
+  
+}
 
 /* MAIN */
 h1 {
