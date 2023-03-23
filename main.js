@@ -36,7 +36,7 @@ function setEvent() {
     const specialDays = {
         "1 0": "New Years! 🎉",
         "14 0": "My Birthday! 🎂",
-        "14 1": "Valentines Day! 💘",
+        "14 1": "Valentines! 💘",
         "1 3": "April Fools! 🎉",
         "31 9": "Halloween! 🎃",
         "11 10": "Remembrance Day! 🎖️",
