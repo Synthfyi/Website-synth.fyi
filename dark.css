@@ -143,6 +143,12 @@ h2 {
 
 }
 
+.invert {
+
+  filter: invert(1);
+  scale: 0.75;
+
+}
 
 /* POPUP */
 #popup {
